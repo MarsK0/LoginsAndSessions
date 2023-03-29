@@ -1,8 +1,8 @@
-#Logins & Sessions
+# Logins & Sessions
 
-###Repositório criado para estudar e praticar os conceitos de JWT, Http Only Cookies, sistemas de login e sessões, criando um app simples, com um front-end básico em React TS e um back-end em Node com typescript e banco de dados SQL (Postgres).
+### Repositório criado para estudar e praticar os conceitos de JWT, Http Only Cookies, sistemas de login e sessões, criando um app simples, com um front-end básico em React TS e um back-end em Node com typescript e banco de dados SQL (Postgres).
 
-###Comandos SQL para criação das tabelas:
+### Comandos SQL para criação das tabelas:
 
 ```sql
 CREATE TABLE public.modulos (
