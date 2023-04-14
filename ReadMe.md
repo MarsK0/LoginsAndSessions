@@ -41,7 +41,7 @@ ALTER TABLE public.permissoes ADD CONSTRAINT fk_usuarios FOREIGN KEY (id_usuario
 ```
 ```sql
 CREATE TABLE public.tokens (
-	id int4 NOT NULL DEFAULT nextval('tokens'::regclass),
+	id serial4 NOT NULL,
 	"token" varchar NOT NULL,
 	id_usuario int4 NOT NULL,
 	valido bool NOT NULL DEFAULT true,
